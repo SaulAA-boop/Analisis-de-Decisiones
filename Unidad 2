@@ -1,1 +1,106 @@
-j
+UNIDAD2 
+DECISIONES BAJO COMPLETA INCERTIDUMBRE 
+Objetivo: Aplicar criterios de decisión en completa ignorancia apoyándose en aspectos filosóficos y 
+psicológicos al carecer de información. 
+2.1 Criterios de elección no probabilísticos 
+. En el ejemplo 1, para tomar una decisión sobre el número de playeras que deben pedirse al proveedor con 
+la infonnación que se proporcionó, el propietario se enfrenta a un proceso de decisión bajo completa incertidumbre porque no conoce algún valor de probabilidad asociado a la posible ocurrencia de los estados 
+· de la naturaleza. · 
+Para resolver este tipo de problemas se recurre a los criterios de elección no probabilísticos: aquéllos en los 
+que se ignora la naturaleza probabilística de la toma de decisiones porque no es posible disponer de tal información. 
+2.1.1 Criterio maximin de Wald 
+Es un criterio de elección pesimista porque escoge "lo mejor de lo peor", es decir, maximiza la mínima 
+ganancia. Este criterio no es el que comúnmente sigue un hombre de negocios, porque generalmente lo 
+llevaría a perder dinero; sin embargo en la Teoría de Juegos es un métodO'utilizado para seleccionar una 
+estrategia. · 
+2.1.2 Criterio maximax 
+Es un criterio de decisión muy optimista, característico del especulador y de personas que tienen gran 
+. atracción por el riesgo. Consiste en elegir "lo mej.or de lo mejor". No es un criterio recomendable porque 
+ignora las pérdidas. 
+2.1.3 Criterio de Hurwicz- índice a (Coeficientes optimistas - pesimistas) 
+Leonid Hurwicz consideraba que un tomador de decisiones "racional" podía sentirse optimista y ser capaz 
+de expresar su grado de optimismo -al que llamó "coeficiente de optimismo"- a través de un valor a que 
+asigna a los resultados (consecuencias) más grandes y (1 - a) a los más pequeños. Para la acción aj se 
+calcula como: 
+Hi =(a) (consecuencia máxima)+ (1- a) (consecuencia mínima)
+Y se .. eirge-la acción que tenga el mayor Hi . Observe qu~ si a es cercana a 1, quiere decir que el 
+decisor es optimista. Un valor de a cercano a ~ , indica una actitud neutral hacia el destino. 
+Desventajas de este criterio: · 
+a) La dificultad para elegir el valor de a. 
+b) Se ignoran los valores. de las consecuencias intermedias. 
+c) La imposibilidad de tomar una decisión cuando todas tengan las mismas consecuencias máxima . 
+y mínima. 
+2.1.4 Pesar minimax. Criterio de Savage 
+Leonard J. Savage propuso minimizar el pesar que se experimentaría por una decisión que no fuera la mejor . 
+una vez que ha ocurrido un.estado de la naturaleza específico. 
+Para aplicar este criterio debe calcularse una matriz de arrepentimiento o de pérdida de oportunidad y 
+utilizar el criterio minimax para seleccionar la acción que, de este modo, permitirá minimizar el arrepentimiento méc'Cimo. El proceso es el siguiente: 
+l. Obtener la matriz de pérdida de oportunidad para lo cual: 
+a) Se sustituye por O el valor más grande de cada renglón (este es el valor del arrepentimiento para esa entrada) · 
+b) Los demás valores se calculan como: 
+Pérdida de oportunidad = [p~go que se habría recibido si se co~o-J- [pago actual] · c1era el estado de la naturaleza que iba a 
+ocurrir · · 
+2. Determinar el valor máximo de cada acción. 
+3. Elegir Ja acción que tiene el valor mínimo de los máximos determinados en el punto anterior. 
+Desventajas de este criterio: 
+Además de las anotadas para el criterio maximin, cuando el pago se expresa en términos de "utilidad" 
+(en este contexto no significa ganancia), no se puede asegurar que las diferencias de estas unidades reflejen "perdidas de oportunidad" en el mismo sentido que las diferencias de ganancias monetarias. 
+Ejemplo 2
+Aplicar los criterios de elección no probabilísticos al ejemplo! para determinar la acción por la que debería decidirse en cada caso. 
+Solución 
+• Matriz de pagos del ejemplo 1: 
+Acción (pedido) a1 ª2 
+Estado de la naturaleza (demanda) 100 200 
+81"'.'100 2,000 o 
+92 = 150 1,750 3,000 
+83 = 200 1,500 6,000 
+a) .Criterio maximin (Wald). Se decide por "lo mejor de lo peor". El pago mínimo con la acción a1 es 
+$1,500; mientras que el pago mínimo con la acción a2 es $0. Bajo este criterio la mejor acción será: 
+max {1,500; O}= $1,500 
+Y corresponde a la acción a1: pedir 100 playeras. 
+b) Criterio maximax. Se elige "lo mejor de lo mejor". En el ejemplo 1, la elección se haría entre el 
+pago máximo de a1 y el pago máximo de a2: 
+max {2,000; 6,000} = $6,000 
+Por lo tanto la elección sería a2: pedir 200 prendas. 
+e) Criterio de Hurwicz - índice a (Coeficientes optimistas - pesimistas). Se determina el valor esperado de cada acción con base en los "pesos" que el decisor asigna a los pagos máximo y mínimo: 
+Hj = a C max + (1 - a) C min 
+Supóngase que a = 1/3, entonces: 
+a1: pago máximo·: $2,000; pago mínimo: $1,500 
+H1 = (1/3) (2000) + (2/3) (1500) = $1,666.66 
+a2: pago máximo: $6,000; pago mínimo: $0 
+H2 = (1/3) (6000) + (2/3) (O)= $2,000 
+Se decide por el valor máximo: 
+max {1,666.66; 2,000} = $2,000 
+Por lo tanto la decisión deberá ser a2: pedir 200 playeras. 
+d) Pesar minimax:criterio de Savage (minimizar el arrepenti~iento o pérdida de oportunidad máxima) 
+• 1. Cálculo de la matriz de pérdida de oportunidad: 
+Si se piden 100 playeras (a1) y la demanda que resulta es de 150 (82), la pérdida de oportunidad será la 
+diferencia entre la ganancia que pudo haber obtenido de solicitar la cantidad necesaria para maximizar 
+la ganancia, menos la que obtiene por vender 100 playeras y dejar de vender 50: 
+(150 X 20)-:- (100 X 20- ~X 50) = $1,250 
+Para (83,a1), la demanda fue de 200 y se pidieron 100 piezas, el arrepentimiento o pérdida de oportunidad se calcula como sigue: 
+Pago que habría recibido de saber la demanda: 200 (120 - 90) = $6,000 
+Pago que recibe con la decisión que tomó: 
+La diferencia es la pérdida de oportunidad: 
+100 (20)- 5 (200-100) = 2000- 500 = $1,500 
+6000 - 1500 = $4,500 
+En el caso de (8¡, a2), la pérdida de oportunidad es: 
+100 (20)- [100 (120-90)- 100 (90-60)] = $2000 
+Mientras que para (82, a2) y (83, a2) su mejor decisión es a2, por lo que no tendría de qué arrepentirse. 
+La matriz de pérdida de oportunidades es la siguiente:
+2. Determinar el valor máximo de cada acción 
+De la matriz de pérdida de oportunidad se observa que el pesar máximo (pérdida de oportunidad) para: 
+a1: pedir 100 prendas, es $4,500 
+a2: pedir 200 prendas, es $2,000 
+• 3. Elegir la acción que tiene el mínimo de los valores determinados en el punto 2. 
+Por lo tanto, la elección será: 
+min{4,500; 2,000} = $2,000 
+Que corresponde a la acción a2, pedir 200 playeras.
+Resumiendo, la decisión a tomar de acuerdo con cada uno de los criteri?s de elección no ~b~bilístÍ~~~ es: 
+1. Criterio maximin: Decidir la acción a 1: pedir 100 playeras 
+2. Criterio maximax: Decidir la acción a2: pedir 200 playeras 
+3. Criterio de Hurwicz: Decidir la acción a2: pedir 200 playeras 
+4. Criterio de Savage: . Decidir la acción a2: pedir 200 playeras 
+Dentro de los criterios de decisión no probabilísticos no es común que una mayoría coincida en una decisión. En condiciones de completa incertidumbre, la elección del criterio que habrá de seguirse puede ser 
+crucial, por lo que debe dejarse al responsable de tomar la decisión. Su elección será dictada por su propia 
+actitud y por la política de la organización.
